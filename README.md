@@ -7,6 +7,11 @@ documents, and a thin Android app plays them — including **state, animations
 and interactions that run entirely on the device**, with zero server
 roundtrips after load.
 
+<p align="center">
+  <img src="docs/screenshots/demo.gif" width="300" alt="Demo: list, detail, tabs, favorite toggle and tap counter — all server-defined" />
+</p>
+<p align="center"><sub><a href="docs/screenshots/recording.mov">full-quality recording</a></sub></p>
+
 | Team list | Profile · About | Profile · Details | Favorited |
 |---|---|---|---|
 | ![list](docs/screenshots/list.png) | ![about](docs/screenshots/detail-about.png) | ![details](docs/screenshots/detail-details.png) | ![favorited](docs/screenshots/detail-favorited.png) |
@@ -68,4 +73,4 @@ documents what we learned the hard way, including:
 If you use Claude Code, the repo ships a
 [`remotecompose` skill](.claude/skills/remotecompose/SKILL.md) so the
 assistant knows all of this up front. It's also published standalone for use
-in any project: https://github.com/&lt;you&gt;/remotecompose-skill
+in any project: https://github.com/MohsenSoli/remotecompose-skill
